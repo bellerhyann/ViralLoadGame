@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ViralLoad
+comment0.text=\r\n\ Virus\ class\ discribes\ how\ the\ virus\ class\ will\ interact\ and\ move\ throughout\ the\ world\r\n\ \r\n\ @author\ Belle\ Erhardt\r\n\ @version\ 4/2020\r\n
+comment1.params=cm
+comment1.target=ViralLoad(CircleMeter)
+comment1.text=\ \r\n\ Ignitializes\ launch\ as\ false\r\n\ \r\n
+comment2.params=world
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.text=\r\n\ Sets\ location\ of\ VL\ to\ the\ angle\ of\ the\ perimeter\ on\ the\ cm\ \r\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ \r\n\ if\ the\ not\ launched\ the\ viral\ load,continue\ to\ set\ the\ location\ to\ the\ arch\ of\ a\ cm\r\n\ onced\ launched,\ check\ to\ see\ if\ touching\ bird\ class,\ if\ not\ move\ (location\ +\ speed)\r\n\ if\ touching\ wall,\ add\ new\ viral\ load\ to\ cm,\ and\ remove\ this\ vl.\r\n
+numComments=4

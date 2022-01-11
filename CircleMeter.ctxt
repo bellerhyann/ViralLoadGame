@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=CircleMeter
+comment0.text=\r\n\ \ CircleMeter\ is\ a\ class\ that\ builds\ a\ "status"\ meter\ in\ a\ semi-circle.\ Pressing\ left\ or\ right\ \r\n\ \ \ \ \ arrow\ keys\ will\ visually\ fill/reduce\ the\ status\r\n\r\n\ YOU\ PROBABLY\ SHOULD\ ***NOT***\ MODIFY\ THIS\ CODE,\ although\ you\ can\ if\ you\ want\ to.\r\n\r\n\ @author\ Stephen\ Blythe\r\n\ @version\ 1/2016\r\n
+comment1.params=radius
+comment1.target=CircleMeter(int)
+comment1.text=\r\n\ constructs\ a\ 180\ degree\ (half\ circle)\ meter\ with\ specified\ radius\r\n\ \r\n\ \ \ @param\ radius\ the\ size\ of\ the\ semicircle's\ radius\r\n
+comment2.params=radius\ maxDegree
+comment2.target=CircleMeter(int,\ int)
+comment2.text=\r\n\ constructs\ a\ semicircle\ meter\ with\ specified\ radius\ and\ maximum\ degree.\ WARNING\:\ this\ is\ really\r\n\ \ \ \ \ \ intended\ to\ work\ with\ only\ multiples\ of\ 90\ degrees.\ \r\n\ \r\n\ \ \ @param\ radius\ the\ size\ of\ the\ semicircle's\ radius\r\n\ \ \ @param\ the\ sweeping\ range\ of\ the\ meter.\ Intended\ to\ work\ in\ multiples\ of\ 90\ degrees.\ \r\n
+comment3.params=
+comment3.target=void\ redraw()
+comment4.params=
+comment4.target=double\ getAngle()
+comment4.text=\r\n\ getAngle\ specifies\ (in\ radians)\ the\ current\ fill\ value\ of\ the\ meter\r\n\ \r\n\ @return\ the\ angle\ value\ in\ radians\ of\ the\ meter.\ \r\n
+comment5.params=
+comment5.target=int\ getDegrees()
+comment5.text=\r\n\ getDegrees\ specifies\ the\ current\ fill\ value\ of\ the\ meter\ in\ degrees\r\n\ @return\ the\ angle\ value\ in\ degrees\r\n
+comment6.params=
+comment6.target=int\ getArcX()
+comment6.text=\r\n\ getArcX\ gives\ the\ x\ value\ of\ the\ perimeter\ of\ the\ circle\ where\ the\ meter\ is\ currently\ filled\ to\r\n\ \r\n\ @return\ the\ x\ location\ of\ the\ filled\ portion\ of\ the\ meter\r\n
+comment7.params=
+comment7.target=int\ getArcY()
+comment7.text=\r\n\ getArcY\ gives\ the\ y\ value\ of\ the\ perimeter\ of\ the\ circle\ where\ the\ meter\ is\ currently\ filled\ to\r\n\ \r\n\ @return\ the\ y\ location\ of\ the\ filled\ portion\ of\ the\ meter\r\n
+comment8.params=
+comment8.target=void\ act()
+comment8.text=\r\n\ Act\ -\ do\ whatever\ the\ CircleMeter\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+numComments=9

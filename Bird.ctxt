@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Bird
+comment0.text=\r\n\ Bird\ class\ gives\ the\ birds\ the\ characteristics\ of\ flying,\ spreading\ the\ virus,\r\n\ and\ what\ to\ do\ when\ its\ life\ count\ becomes\ 0.\r\n\ \r\n\ @author\ Belle\ Erhardt\ \r\n\ @version\ 4/2020\r\n
+comment1.params=speed
+comment1.target=Bird(int)
+comment1.text=\r\n\ Bird\ takes\ its\ speed\r\n\ starts\ off\ with\ 50\ life\r\n\ 0\ ViralLoad\ and\ is\ alive\r\n\ and\ no\ vertical\ speed\r\n
+comment2.params=
+comment2.target=double\ getHorizontalSpeed()
+comment2.text=\r\n\ returns\ the\ current\ speed\ in\ the\ x\ direction\ of\ this\ Bird\r\n\ @return\ the\ current\ x\ speed\r\n
+comment3.params=
+comment3.target=void\ redraw()
+comment4.params=
+comment4.target=int\ getInfectionCount()
+comment4.text=\r\n\ returns\ this\ Bird's\ current\ viral\ load\ count\r\n\ @return\ the\ viral\ load\ count\r\n
+comment5.params=x
+comment5.target=void\ addInfection(int)
+comment5.text=takes\ int\ of\ damage\ possible\r\n\ returns\ this\ Bird's\ current\ viral\ load\ count\r\n\ @return\ the\ viral\ load\ count\r\n
+comment6.params=
+comment6.target=int\ getLifeLeft()
+comment6.text=\r\n\ returns\ this\ Bird's\ amount\ of\ life\ left\r\n\ @return\ the\ amount\ of\ life\ left\r\n
+comment7.params=
+comment7.target=void\ act()
+comment7.text=\r\n\ Act\ -\ \r\n\ if\ not\ alive,\ the\ bird\ goes\ no\ where\r\n\ if\ its\ alive\ it\ moves\ horizonally,\ until\ its\ life\ left\ is\ 0\ then\ it\ vertically\ moves\r\n\ if\ at\ edge\ reverse\ speed\r\n\ every\ 50\ calls,\ if\ a\ bird\ has\ a\ Viral\ load.\ Decrease\ it\ by\ one.\r\n\ every\ 10\ calls,\ if\ a\ bird\ had\ Viral\ load\ larger\ than\ 50,\ and\ life\ left.\ decrease\ by\ one.\r\n\ if\ bird\ has\ Viral\ load\ greater\ than\ 0,\ grab\ local\ birds\ in\ SDR.\ increase\ ViralLoad\r\n\ \r\n
+numComments=8

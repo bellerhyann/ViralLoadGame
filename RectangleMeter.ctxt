@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=RectangleMeter
+comment0.text=\r\n\ Allows\ for\ an\ interactive\ fillable\ vertical\ rectangle.\ This\ is\ accomplished\ by\ pressing\ \r\n\ \ \ the\ up\ and\ down\ arrow\ keys\r\n\ \r\n\ YOU\ PROBABLY\ SHOULD\ ***NOT***\ MODIFY\ THIS\ CODE,\ although\ you\ can\ if\ you\ want\ to.\r\n\ \r\n\ @author\ Stephen\ Blythe\r\n\ @version\ 1/2016\r\n
+comment1.params=height
+comment1.target=RectangleMeter(int)
+comment1.text=\r\n\ Build\ a\ rectangle\ of\ specifed\ height\ (and\ 20\ width).\ Initially,\ the\ rectangle\ is\ empty.\r\n\ \r\n\ @param\ height\ -\ the\ requested\ height\r\n
+comment2.params=
+comment2.target=void\ redraw()
+comment3.params=
+comment3.target=int\ getPower()
+comment4.params=
+comment4.target=double\ getFilledRatio()
+comment4.text=\r\n\ getFilledRatio\ returns\ a\ double\ representing\ the\ amount\ the\ meter\ is\ full\ as\ a\ ratio\ \r\n\ \ \ \ (i.e.\ a\ value\ between\ 0\ and\ 1\ inclusively)\r\n\ \ \ \ \r\n\ \ \ \ @return\ the\ ratio\r\n
+comment5.params=
+comment5.target=int\ getHeight()
+comment5.text=\r\n\ getHeight\ returns\ the\ height\ of\ this\ RectangleMeter\ in\ pixels\r\n\ \ \ \ \r\n\ \ \ \ @return\ number\ of\ pixels\ high\ the\ meter\ image\ is\r\n
+comment6.params=
+comment6.target=int\ getWidth()
+comment6.text=\r\n\ getWidth\ returns\ the\ width\ of\ this\ RectangleMeter\ in\ pixels\r\n\ \ \ \ \r\n\ \ \ \ @return\ number\ of\ pixels\ wide\ the\ meter\ image\ is\r\n
+comment7.params=
+comment7.target=void\ act()
+comment7.text=\r\n\ act\ -\ check\ \ user\ keypress\ status\ and\ modify\ meter\ accordingly\ \r\n
+numComments=8

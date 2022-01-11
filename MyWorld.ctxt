@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\r\n\ My\ World\ ignitalizes\ varibles\ needed\ to\ create\r\n\ the\ first\ instance\ of\ the\ world\r\n\ Dear\ Theresa,\r\n\ A\ Note\ to\ my\ Grader\:\ Null\ pointers\ are\ found\ when\ certain\ lines\ of\ code\ are\ commented\ out\r\n\ so\ it\ compiles\ I\ exempted\ them\ from\ the\ reader,\ and\ I\ will\ be\ upfront\ about\ the\ parts\ of\ \r\n\ code\ I\ was\ not\ able\ to\ get\ to\ run\ right.\ 1,\ removing\ or\ adding\ the\ viral\ load\ from\ the\ \r\nworld\ causes\ errors\ in\ the\ actor\ class\ so\ as\ soon\ as\ it\ touches\ anything\ it\ will\ cause\ an\ \r\nerror.\ 2\ creating\ a\ boolean\ statement\ to\ catch\ neighboring\ birds,\ in\ the\ if\ statment\ caused\ \r\nanother\ null\ pointer.\ Finally\ 3,\ passing\ the\ social\ distancing\ radius\ from\ the\ world\ class\ \r\nthe\ bird\ class\ causes\ another\ error.\ Despite\ this\ parts\ of\ this\ program\ works,\ sorry\ for\r\n\ the\ incompleteness\ within\ this\ program.\ If\ circumstances\ were\ different,\ you\ would\ have\ \r\n\ seen\ me\ in\ office\ hours\ until\ I\ completed\ all\ this\ but\ as\ you\ know\ that\ was\ not\ quite\ an\r\n\ option.\ That\ still\ is\ no\ excuse\ for\ not\ reaching\ out\ more,\ so\ with\ that,\ enjoy\ playing\ \r\n\ the\ 'COVID-19'\ game\ bird\ eddition\ again\ and\ again.\ -belle\r\n\ \r\n\ @author\ Stephen\ Blythe,\ Belle\ Erhardt\ \ \r\n\ @version\ 4/2020\r\n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\r\n\ This\ adds\ in\ the\ CircleMeter\ RectangleMeter\r\n\ a\ ViralLoad,\ and\ sets\ the\ size\ of\ the\ world\r\n\ upon\ the\ opening\ the\ program.\r\n\ \r\n
+comment2.params=
+comment2.target=void\ addViralLoad()
+comment2.text=\r\n\ addViralLoad(int,\ int)\r\n\ this\ adds\ an\ instance\ of\ a\ viral\ load\ to\ the\ world\r\n\ and\ attaches\ it\ to\ the\ circle\ meter\ in\ the\ world\r\n
+comment3.params=
+comment3.target=int\ getSDR()
+comment3.text=\r\n\ getSDR()\r\n\ returns\ social\ distancing\ radius\r\n\ \r\n
+comment4.params=
+comment4.target=boolean\ containsVl()
+comment4.text=\r\n\ contaisVL()\r\n\ returns\ true\ if\ VL\ is\ in\ the\ world\r\n
+comment5.params=
+comment5.target=int\ worldHeight()
+comment5.text=\r\n\ worldHeight()\r\n\ Returns\ World\ height\ in\ an\ int\r\n
+comment6.params=
+comment6.target=void\ act()
+comment6.text=\r\n\ act\ -\ \r\n\ When\ the\ L\ key\ is\ pressed\ the\ GUI\ will\ import\ \r\n\ a\ file\ and\ attempt\ to\ read\ it\ \r\n\ ignoring\ lines\ that\ start\ with\ *\r\n\ lines\ that\ start\ with\ Bird\ will\ create\ a\ new\ inscance\ of\ a\ bird\r\n\ lines\ starting\ with\ \r\n
+numComments=7
